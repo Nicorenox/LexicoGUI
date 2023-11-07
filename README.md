@@ -32,8 +32,8 @@ You can use the Replit platform to easily run and test the project without setti
 The project is structured as follows:
 
 - [`main.py`](https://github.com/Nicorenox/LexicoGUI/blob/main/project_folder/main.py): Contains the main code for the GUI and the lexicographic analyzer logic.
-- `diccionario_espanol.txt`: A text file containing a Spanish dictionary for word verification.
-- `png/`: A folder containing high-definition emoticons used in the GUI.
+- [`diccionario_espanol.txt`](https://github.com/Nicorenox/LexicoGUI/blob/main/project_folder/diccionario_espanol.txt): A text file containing a Spanish dictionary for word verification.
+- [`png`](https://github.com/Nicorenox/LexicoGUI/tree/main/project_folder/png): A folder containing high-definition emoticons used in the GUI.
 
 ## Requirements
 
