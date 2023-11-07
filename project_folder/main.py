@@ -29,7 +29,7 @@ emoticones_dict = {
   "o_O": "008-confuso.png",
   ":(": "009-triste.png",
   ":'D": "010-risa.png",
-  ":( - 011-triste-1.png": ":-o",
+  ":(" : "011-triste-1.png",
   ":-o": "012-conmocionado-1.png",
   ":S": "013-preocuparse.png",
   ":)": "014-sonrisa.png",
