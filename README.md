@@ -23,7 +23,7 @@ You can also use this project on Replit. Follow the steps below to run the proje
 1. Open the project on Replit by clicking the following link: [Run on Replit](https://replit.com/join/sxllznurkq-nickolas10moren).
 2. Once the project is open, you can modify the `main.py` file to make any changes you desire.
 3. Run the `main.py` file to start the application on the Replit platform.
-4. Follow the on-screen instructions to input the text string and view the analysis results.
+4. Follow the on-screen instructions in the 'Output' window to input the text string and view the analysis results.
 
 You can use the Replit platform to easily run and test the project without setting up any local development environment.
 
