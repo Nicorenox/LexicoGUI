@@ -9,10 +9,10 @@ import pyperclip
 def analizador_lexicografico(cadena):
   with open('diccionario_espanol.txt', 'r', encoding="utf-8") as f:
     diccionario = set(f.read().split())
-    
-  emoticones = re.findall(r'(:-?[\(\)DdPpO|/*]|;-?[\)]|<3|\\m/|\(y\)|\(n\)|\^\^|>:|:-S|:p|=:o\)|\(-\.-\)|:r\]|\|\|//\||8-nn|S//S|:o\)|:SS|<<>>|XD|:3p1|:3p2|:3p3|:3p4)', cadena)
+
+  emoticones = re.findall(r'(:-?[\(\)DdPpO|/*]|;-?[\)]|<3|\\m/|\(y\)|\(n\)|\^\^|>:|:-S|:p|=:o\)|\(-\.-\)|:r\]|\|\|//\||8-nn|S//S|:o\)|:SS|<<>>|XD|:-]|zzz)', cadena)
   palabras_espanol = re.findall(r'\b[a-zA-ZáéíóúüÁÉÍÓÚÜñÑ]+\b', cadena)
-  
+
 
   num_palabras_espanol = sum(1 for palabra in palabras_espanol
                              if palabra.lower() in diccionario)
@@ -35,10 +35,9 @@ emoticones_dict = {
     ":( - 011-triste-1.png": ":-o",
     ":S": "013-preocuparse.png",
     ":)": "014-sonrisa.png",
-    "(_)": "016-estrella.png",
+    "**": "016-estrella.png",
     "^_^": "017-partido.png",
     ";)": "018-guino.png",
-    "?_?": "019-entusiasta.png",
     "<:o)": "021-cabeza-alienigena.png",
     "=^_^=": "022-gato.png",
     ":-S": "023-cabeza-alienigena-1.png",
@@ -61,10 +60,7 @@ emoticones_dict = {
     ":SS": "054-pensar.png",
     "<<>>": "056-caca.png",
     "XD": "058-riendo.png",
-    ":3p": "060-perro.png",
-    ":3p2": "061-perro-1.png",
-    ":3p3": "064-perro-4.png",
-    ":3p4": "065-perro-5.png",
+    ":*": "065-perro-5.png",
 }
 
 
@@ -108,7 +104,7 @@ def create_gui():
         cadena)
 
     parts = re.split(
-      r'(:-?[\(\)DdPpO|/*]|;-?[\)]|<3|\\m/|\(y\)|\(n\)|\^\^|>:|:-S|:p|=:o\)|\(-\.-\)|:r\]|\|\|//\||8-nn|S//S|:o\)|:SS|<<>>|XD|:3p1|:3p2|:3p3|:3p4)',
+      r'(:-?[\(\)DdPpO|/*]|;-?[\)]|<3|\\m/|\(y\)|\(n\)|\^\^|>:|:-S|:p|=:o\)|\(-\.-\)|:r\]|\|\|//\||8-nn|S//S|:o\)|:SS|<<>>|XD|:-]|zzz)',
         resultado)
     column_index = 0
 
