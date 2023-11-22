@@ -27,7 +27,7 @@ You can also use this project on Replit. Follow the steps below to run the proje
 
 <img src="https://i.imgur.com/6IczXDq.png" alt="Texto alternativo" width="400"/>
 You can use the Replit platform to easily run and test the project without setting up any local development environment.
-<img src="[https://imgur.com/wnHtCSL](https://imgur.com/wnHtCSL)" alt="Texto alternativo" width="400"/>
+<img src="https://imgur.com/wnHtCSL.png" alt="Texto alternativo" width="400"/>
 ## Project Structure
 
 The project is structured as follows:
